@@ -81,7 +81,7 @@ module.exports = {
     },
     contractSizer: {
         runOnCompile: false,
-        only: ["NftMarketplace"],
+        only: [""],
     },
     namedAccounts: {
         deployer: {

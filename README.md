@@ -31,8 +31,8 @@ Deployment
 ## Quickstart
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nextjs-nft-marketplace-fcc
-cd hardhat-nextjs-nft-marketplace-fcc
+git clone https://github.com/Imdavyking/LifeSourceContracts
+cd LifeSourceContracts
 yarn
 ```
 

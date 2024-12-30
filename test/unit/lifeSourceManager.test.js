@@ -10,7 +10,7 @@ const path = require("path")
 
 !developmentChains.includes(network.name)
     ? describe.skip
-    : describe("Basic NFT Unit Tests", function () {
+    : describe("Basic Unit Tests", function () {
           let lifeSourceManager, deployer, lifeSourceToken
           const POINT_BASIS = 35
 
