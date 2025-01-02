@@ -59,7 +59,7 @@ const path = require("path")
 
                   const userPoint = await lifeSourceManager.userPoints(deployer.address)
                   const balanceOfUser = await lifeSourceToken.balanceOf(deployer.address)
-                  assert.equal(100, Number(balanceOfUser))
+                  assert.equal(100000000000000000000, Number(balanceOfUser))
                   assert.equal(3400, Number(userPoint[0]))
               })
           })

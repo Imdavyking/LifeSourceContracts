@@ -58,7 +58,7 @@ contract LifeSourceManager {
         }
         userPoints[msg.sender].points -= point;
         // convert to ERC20 token
-        lifeSourceToken.mint(msg.sender, point);
+        lifeSourceToken.mint(msg.sender, point * 10 ** lifeSourceToken.decimals());
         return true;
     }
 }
